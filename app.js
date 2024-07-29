@@ -11,9 +11,6 @@ app.listen(3000);
 
 
 app.get('/', (req, res) => {
-    const blogs = {
-        
-    }
     res.render('index', { title: 'Home'});
 });
 
